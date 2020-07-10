@@ -10,7 +10,7 @@ Router.onRouteChangeStart = () => {
 };
 Router.onRouteChangeComplete = () => {
   // console.log("onRouteChangeComplete triggered");
-  NProgress.done();
+  NProgress.done(); 
 };
 Router.onRouteChangeError = () => {
   console.log("onRouteChangeError triggered");
